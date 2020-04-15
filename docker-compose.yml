@@ -1,0 +1,6 @@
+version: "3"
+services:
+  participant-mongodb:
+    build: mongodb
+    ports:
+      - 27000:27017
